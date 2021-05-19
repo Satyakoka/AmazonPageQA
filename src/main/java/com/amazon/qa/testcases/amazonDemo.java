@@ -1,5 +1,7 @@
 package com.amazon.qa.testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -27,7 +29,8 @@ public class amazonDemo {
 	
 	 driver.get(url);
 	driver.manage().window().maximize();
-	Thread.sleep(2000);
+	driver.manage().deleteAllCookies();
+	driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	}
 	
 	@Test

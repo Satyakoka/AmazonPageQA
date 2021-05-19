@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26563" started-at="2021-05-10T16:57:02Z" finished-at="2021-05-10T16:57:28Z">
+  <suite name="Default suite" duration-ms="11264" started-at="2021-05-19T18:27:53Z" finished-at="2021-05-19T18:28:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26563" started-at="2021-05-10T16:57:02Z" finished-at="2021-05-10T16:57:28Z">
+    <test name="Default test" duration-ms="11264" started-at="2021-05-19T18:27:53Z" finished-at="2021-05-19T18:28:04Z">
       <class name="com.amazon.qa.testcases.amazonDemo">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.amazon.qa.testcases.amazonDemo@3c9d0b9d]" name="launch" is-config="true" duration-ms="6255" started-at="2021-05-10T11:57:02Z" finished-at="2021-05-10T11:57:08Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.amazon.qa.testcases.amazonDemo@3c9d0b9d]" name="launch" is-config="true" duration-ms="3609" started-at="2021-05-19T13:27:53Z" finished-at="2021-05-19T13:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:com.amazon.qa.testcases.amazonDemo@3c9d0b9d]" name="testcase" duration-ms="20079" started-at="2021-05-10T11:57:08Z" finished-at="2021-05-10T11:57:28Z">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:com.amazon.qa.testcases.amazonDemo@3c9d0b9d]" name="testcase" duration-ms="7442" started-at="2021-05-19T13:27:56Z" finished-at="2021-05-19T13:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.amazonDemo@3c9d0b9d]" name="close" is-config="true" duration-ms="215" started-at="2021-05-10T11:57:28Z" finished-at="2021-05-10T11:57:28Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.amazon.qa.testcases.amazonDemo@3c9d0b9d]" name="close" is-config="true" duration-ms="204" started-at="2021-05-19T13:28:04Z" finished-at="2021-05-19T13:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
